@@ -87,8 +87,107 @@
             </div>
         </section>
 
-
     </header>
+
+    <!-- main section  -->
+
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="me-auto fs-4" style="color:palevioletred;">20% off for new Client</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+
+
+    <main class="container my-5">
+        <!-- our package section -->
+        <h1 class="fs-1 text fw-bold text-center">Our package</h1>
+
+
+        <section>
+            <div class="row">
+                <div class="col-lg-3 col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title fs-1 text fw-bold">$400</h2>
+                            <h2 class="card-title fs-1 text fw-bold">Birthday Event</h2>
+                            <p class="card-text fs-5 text fw-light">We Organize birthday event for you as per your
+                                requirment</p>
+                            <div class="">
+                                <i class="fas fa-check-square"> Available Space</i>
+                                <i class="fas fa-check-square"> Well Decoration</i>
+                                <i class="fas fa-check-square"> Securety Support</i>
+                                <i class="fas fa-check-square"> Well Managed</i>
+                            </div>
+                            <div class=" text-center">
+                                <a href="#" class="btn btn-primary rounded-pill btn-packg">Choose plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title fs-1 text fw-bold">$600</h2>
+                            <h2 class="card-title fs-1 text fw-bold">Wedding Standard</h2>
+                            <p class="card-text fs-5 text fw-light">We Organize Wedding party as per your requirment.
+                            </p>
+                            <div class="">
+                                <i class="fas fa-check-square"> Available Space</i>
+                                <i class="fas fa-check-square"> Well Decoration</i>
+                                <i class="fas fa-check-square"> Available Food</i>
+                                <i class="fas fa-check-square"> Well Managed</i>
+                            </div>
+                            <div class=" text-center">
+                                <a href="#" class="btn btn-primary rounded-pill btn-packg">Choose plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <h5><span class="badge bg-danger">Hot Deal</span></h5>
+                        <div class="card-body">
+                            <h2 class="card-title fs-1 text fw-bold">$900</h2>
+                            <h2 class="card-title fs-1 text fw-bold">Wedding Premium</h2>
+                            <p class="card-text fs-5 text fw-light">We Organize Premium Wedding party as per your.
+                            </p>
+                            <div class="">
+                                <i class="fas fa-check-square"> Available Space</i>
+                                <i class="fas fa-check-square"> Custom Decoration</i>
+                                <i class="fas fa-check-square"> Unlimited Food</i>
+                                <i class="fas fa-check-square"> Custom plan</i>
+                            </div>
+                            <div class=" text-center">
+                                <a href="#" class="btn btn-primary rounded-pill btn-packg">Choose plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title fs-1 text fw-bold">$1200</h2>
+                            <h2 class="card-title fs-1 text fw-bold">Corporate Event</h2>
+                            <p class="card-text fs-5 text fw-light">With supporting text below as a natural lead-in to
+                                additional content.
+                            </p>
+                            <div class="">
+                                <i class="fas fa-check-square"> Available Space</i>
+                                <i class="fas fa-check-square"> Premium Decoration</i>
+                                <i class="fas fa-check-square"> Special Securety</i>
+                                <i class="fas fa-check-square"> Premium Food</i>
+                            </div>
+                            <div class=" text-center">
+                                <a href="#" class="btn btn-primary rounded-pill btn-packg">Choose plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
 
 
@@ -102,6 +201,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <script>
+        window.onload = (e) => {
+            let myToast = document.querySelector('.toast');
+            let bsToast = new bootstrap.Toast(myToast);
+            bsToast.show();
+        }
+    </script>
 
 </body>
 

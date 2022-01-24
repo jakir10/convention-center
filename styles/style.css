@@ -11,3 +11,18 @@ body{
 .custom-btn:hover{
     color: palevioletred;
 }
+
+.btn-packg{
+    background: white;
+    color: palevioletred;
+    border:lightgray;
+    padding: 5px 70px;
+    font-size:larger;
+    margin-top: 30px;
+}
+.btn-packg:hover{
+    color: white;
+    background:palevioletred;
+}
+.custom-card{
+}
