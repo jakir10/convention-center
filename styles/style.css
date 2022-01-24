@@ -4,8 +4,8 @@ body{
 .custom-btn{
     background: palevioletred;
     color: white;
-    font-size: xx-large;
-    padding: 5px 30px;
+    font-size:larger;
+    padding: 2px 30px;
     border: none;
 }
 .custom-btn:hover{
@@ -25,4 +25,8 @@ body{
     background:palevioletred;
 }
 .custom-card{
+}
+
+.deal-card{
+    background: lightpink;
 }
