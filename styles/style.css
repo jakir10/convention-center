@@ -1,3 +1,13 @@
 body{
     font-family: 'Dongle', sans-serif;
 }
+.custom-btn{
+    background: palevioletred;
+    color: white;
+    font-size: xx-large;
+    padding: 5px 30px;
+    border: none;
+}
+.custom-btn:hover{
+    color: palevioletred;
+}
